@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <button  onclick="showToast(Successmsg)">
+            <span class="text">Success</span>
+          </button>
+        <!-- <button>Sucess</button> -->
+        <button  onclick="showToast(errormsg)">
+            <span class="text">Error</span>
+          </button> 
+        <!-- <button onclick="showToast(errormsg)">Error</button> -->
+        <button  onclick="showToast(invalidmas)">
+            <span class="text">invalid</span>
+          </button>
+        </div>
+        <!-- <button onclick="showToast(invalidmas)">Invalid</button> -->
+    </div>
+    <div class="toastBox"></div>
+     <script src="./toast.js"></script>
+</body>
+</html>
